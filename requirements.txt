@@ -1,0 +1,4 @@
+numpy
+scikit-learn
+# Optional: include openai if you want to enable LLM‑powered answers
+openai
