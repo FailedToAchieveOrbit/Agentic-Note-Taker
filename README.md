@@ -327,9 +327,6 @@ Built-in observability with LangFuse integration:
 - API key management
 - Audit logging
 
-## 🤝 Contributing
-
-We welcome contributions! Please see our [Contributing Guide](CONTRIBUTING.md) for details.
 
 ### Development Workflow:
 
@@ -339,10 +336,6 @@ We welcome contributions! Please see our [Contributing Guide](CONTRIBUTING.md) f
 4. Add tests
 5. Run the test suite
 6. Submit a pull request
-
-## 📜 Documentation
-
-Detailed documentation is available at [docs.agentic-notes.com](https://docs.agentic-notes.com):
 
 - 🚀 **Quick Start Guide**
 - 📚 **API Reference** 
@@ -367,8 +360,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 <div align="center">
 
-**Built with ❤️ by the community**
-
-[Website](https://agentic-notes.com) • [Documentation](https://docs.agentic-notes.com) • [Discord](https://discord.gg/agentic-notes) • [Twitter](https://twitter.com/agentic_notes)
+**Built with ❤️**
 
 </div>
