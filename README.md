@@ -328,21 +328,6 @@ Built-in observability with LangFuse integration:
 - Audit logging
 
 
-### Development Workflow:
-
-1. Fork the repository
-2. Create a feature branch
-3. Make your changes
-4. Add tests
-5. Run the test suite
-6. Submit a pull request
-
-- 🚀 **Quick Start Guide**
-- 📚 **API Reference** 
-- 🤖 **Agent Development**
-- 🔧 **Configuration Options**
-- 📊 **Performance Tuning**
-
 ## 📜 License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
