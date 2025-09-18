@@ -1,14 +1,53 @@
-"""Top-level package for the note_taker module.
+"""Robust Note Taker - AI-powered semantic search for your notes.
 
-This package exposes the two main classes used by the CLI:
-
-- :class:`note_taker.database.NoteDatabase` manages the storage of
-  notes and their embeddings.
-- :class:`note_taker.embedding_model.EmbeddingModel` wraps
-  embedding backends (OpenAI or Sentence‑Transformers).
+A modern Python application for storing and searching through notes using
+semantic search, BM25, and hybrid search methods. Built with async/await,
+type hints, and modern Python best practices.
 """
 
-from .database import NoteDatabase  # noqa: F401
-from .embedding_model import EmbeddingModel  # noqa: F401
+__version__ = "2.0.0"
+__author__ = "FailedToAchieveOrbit"
+__description__ = "AI-powered semantic search for your notes"
 
-__all__ = ["NoteDatabase", "EmbeddingModel"]
+# Public API
+from .config import Settings, get_settings, reset_settings
+from .database import AsyncNoteDatabase
+from .embeddings import EmbeddingService
+from .models import (
+    Note,
+    NoteCreate,
+    SearchResult,
+    SearchQuery,
+    DatabaseStats,
+    EmbeddingInfo,
+    SystemInfo,
+    APIResponse,
+    ErrorResponse,
+)
+
+__all__ = [
+    # Version info
+    "__version__",
+    "__author__",
+    "__description__",
+    
+    # Configuration
+    "Settings",
+    "get_settings",
+    "reset_settings",
+    
+    # Core classes
+    "AsyncNoteDatabase",
+    "EmbeddingService",
+    
+    # Models
+    "Note",
+    "NoteCreate", 
+    "SearchResult",
+    "SearchQuery",
+    "DatabaseStats",
+    "EmbeddingInfo",
+    "SystemInfo",
+    "APIResponse",
+    "ErrorResponse",
+]
