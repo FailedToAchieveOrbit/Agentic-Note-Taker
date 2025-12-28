@@ -1,26 +1,20 @@
-"""🤖 Agentic system for intelligent note management.
+"""Agentic system for multi-agent collaboration."""
 
-Multi-agent system using LangGraph, CrewAI, and OpenAI Swarm for collaborative
-note processing, search, and user interaction.
-"""
-
-from .base import AgenticAgent, AgentState
-from .crew import NoteCrew
-from .graph import create_note_agent_graph
-from .tools import (
-    SearchTool,
-    NoteTool, 
-    AnalysisTool,
-    WebSearchTool,
-)
+from .base import BaseAgent, AgentState
+from .planning import PlanningAgent
+from .search import SearchAgent
+from .analysis import AnalysisAgent
+from .synthesis import SynthesisAgent
+from .reflection import ReflectionAgent
+from .graph import NoteAgentGraph
 
 __all__ = [
-    "AgenticAgent",
-    "AgentState", 
-    "NoteCrew",
-    "create_note_agent_graph",
-    "SearchTool",
-    "NoteTool",
-    "AnalysisTool",
-    "WebSearchTool",
+    "BaseAgent",
+    "AgentState",
+    "PlanningAgent",
+    "SearchAgent",
+    "AnalysisAgent",
+    "SynthesisAgent",
+    "ReflectionAgent",
+    "NoteAgentGraph",
 ]
